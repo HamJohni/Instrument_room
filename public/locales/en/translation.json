@@ -12,7 +12,7 @@
   },
   "home": {
     "start": {
-      "start__fBlock__title": " DeWALT - Tool with real character",
+      "start__fBlock__title": " DeWALT - Tool\n with real character",
       "start__fBlock__btn": "Go to catalog",
       "start__sBlock__title": "Sales",
       "start__sBlock__title1": "New arrival",
@@ -31,12 +31,12 @@
     },
     "aboutUs": {
       "title": "About us",
-      "desc": "Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise, in which its legal personality differs from the legal personality of the persons participating in it. Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise,",
+      "desc": "Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise, in which its legal personality differs from the legal personality of the persons participating in it. \\n Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise, \"",
       "btn": "GO TO CATALOG"
     },
     "news": {
       "news": "News",
-      "desc": "Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise, in which its legal personality differs from the legal personality of the persons participating in it. Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise,",
+      "desc": "Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise, in which its legal personality differs from the legal personality of the persons participating in it. \\n Commercial or industrial enterprise, commercial and industrial association of entrepreneurs, form of organization of the enterprise, \"",
       "btn": "GO TO NEWS",
       "newsName": "newsName",
       "data": "12 january 2023"

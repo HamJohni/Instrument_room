@@ -1,14 +1,11 @@
 import React from 'react';
 import {useForm} from "react-hook-form";
-import {useAddUserMutation} from "../../store/reducers/users";
+import {useAddUserMutation, useGetUsersQuery} from "../../store/reducers/users";
 import {useNavigate} from "react-router-dom";
 
-
 const Register = () => {
-
     const [addUser] = useAddUserMutation()
     const nav = useNavigate()
-
     const {
         register,
         handleSubmit,
@@ -16,15 +13,13 @@ const Register = () => {
         reset,
         formState: {errors}
     } = useForm({mode:"onBlur"})
-
     const onSubmit = async data => {
         const {confirm,...other} = data
         await addUser(other)
         reset()
         nav('/')
     }
-
-    return(
+    return (
         <section className={'register'}>
             <form onSubmit={handleSubmit(onSubmit)} className="form">
                 <h1 className="form__title">
@@ -98,18 +93,18 @@ const Register = () => {
                 <button style={{background: errors ? '#212526' : '#F05A00'}} type={'submit'} className="form__btn">
                     РЕГИСТРАЦИЯ
                 </button>
-                <p onClick={() => nav('/login')} style={{cursor: 'pointer',textAlign: 'center'}} >
+               <p onClick={() => nav('/login')} style={{cursor: 'pointer',textAlign: 'center'}} >
                     У меня уже есть аккаунт
-                </p>
+               </p>
                 <span onClick={() => nav('/')} className={'form__close'}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18 6L6 18" stroke="#8A8A8A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M6 6L18 18" stroke="#8A8A8A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
+<path d="M18 6L6 18" stroke="#8A8A8A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6 6L18 18" stroke="#8A8A8A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
                 </span>
             </form>
         </section>
-    )
-}
+    );
+};
 
-export default Register
+export default Register;

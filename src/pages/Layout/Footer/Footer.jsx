@@ -1,16 +1,13 @@
+import React from 'react';
 import {menu, pages} from "../../../utils/list";
-
 import {useTranslation} from "react-i18next";
-
 import {AiOutlineInstagram} from "react-icons/ai";
 import {SlSocialVkontakte} from "react-icons/sl";
 import {FaFacebookF} from "react-icons/fa";
 
 const Footer = () => {
-
     const {i18n,t} = useTranslation()
-
-    return(
+    return (
         <footer className={'footer'}>
             <div className="container">
                 <div className="footer__row">
@@ -47,10 +44,10 @@ const Footer = () => {
                             </svg>
                         </h1>
                         <p className="footer__block__number">
-                            +7 495 120-32-14
+                            +7 495 120-32-14
                         </p>
                         <p className="footer__block__number">
-                            +7 495 120-32-14
+                            +7 495 120-32-14
                         </p>
                         <div className="header__icons">
                            <span className="header__icon">
@@ -70,7 +67,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

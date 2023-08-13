@@ -3,12 +3,11 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 import {useTranslation} from "react-i18next";
 import {useNavigate} from "react-router-dom";
 
-const Start = () => {
 
+const Start = () => {
     const {t} = useTranslation()
     const nav = useNavigate()
-
-    return(
+    return (
         <section className={'start'}>
             <div className="container">
                 <div className="start__row">
@@ -52,7 +51,7 @@ const Start = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Start
+export default Start;

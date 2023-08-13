@@ -70,7 +70,7 @@
       "packageRu": "ведро",
       "dryingTimeEn": "1 hour",
       "dryingTimeRu": "1 час",
-      "favorite": true,
+      "favorite": false,
       "cart": false,
       "count": 1,
       "comparison": true
@@ -185,7 +185,7 @@
       "packageRu": "коробка",
       "dryingTimeEn": "1 hour",
       "dryingTimeRu": "1 час",
-      "favorite": true,
+      "favorite": false,
       "cart": true,
       "count": 1,
       "comparison": true
@@ -1413,7 +1413,8 @@
           "count": 4,
           "comparison": false
         }
-      ]
+      ],
+      "id": 3
     }
   ]
 }

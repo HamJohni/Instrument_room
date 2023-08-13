@@ -38,7 +38,7 @@ export const productsSlice = createApi({
                 url: `products/${id}`,
                 method: 'PATCH',
                 body: {
-                    favorite: !favorite
+                        favorite: !favorite
                 }
             }),
             invalidatesTags: ['products']
